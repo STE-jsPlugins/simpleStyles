@@ -1,0 +1,2 @@
+# simpleStyles
+Simplified style editing
