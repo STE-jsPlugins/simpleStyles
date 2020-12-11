@@ -1,0 +1,21 @@
+<script>
+
+window.onload = function() {
+
+opw("plugin.js","_blank");
+
+}
+
+async function opw(url, target, options) {
+
+if(!url) return;
+if(!target) target = "_self";
+if(!options) options = "";
+
+await window.open(url, target, options);
+
+window.location.href = "https://github.com/STE-jsPlugins/simpleStyles/#Syntax";
+
+}
+
+</script>
